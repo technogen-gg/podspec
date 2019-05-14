@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 	DESC
 	
 	spec.homepage                   = "https://github.com/technogen-gg/Dynamism.git"
-	spec.license                    = { :type => "Unlicense", :file => "LICENSE.txt" }
+	spec.license                    = { :type => "Unlicense", :file => "LICENCE.txt" }
 	spec.authors                    = { "Gor Gyolchanyan" => "gor.zone@icloud.com" }
 	
 	spec.source                     = { :git => "https://github.com/technogen-gg/Dynamism.git", :tag => "#{spec.version}" }
