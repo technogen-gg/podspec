@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 	spec.authors                    = { "Gor Gyolchanyan" => "gor.zone@icloud.com" }
 	
 	spec.source                     = { :git => "https://github.com/technogen-gg/PaletteKit.git", :tag => "#{spec.version}" }
-	spec.source_files               = "Sources", "Sources/PaletteKit/*.{swift,h,c,cpp,m,mm}"
+	spec.source_files               = "Sources", "Sources/PaletteKit/**/*.{swift,h,c,cpp,m,mm}"
 	
 	spec.osx.deployment_target      = '10.9'
 	spec.ios.deployment_target      = '8.0'
